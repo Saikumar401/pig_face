@@ -1,0 +1,88 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+.face {
+    width: 220px;
+    height: 230px;
+    background-color: rgb(180, 84, 116); 
+    border-radius: 50%;
+    align-items: center;
+    position: relative;
+    outline: auto;
+}
+.eye {
+    width: 20px;
+    height: 25px;
+    align-items: center;
+    background-color: black; 
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    outline: auto;
+}
+.eye.left {
+    left: 60px;
+}
+.eye.right {
+    right: 60px;
+}
+.snout {
+    width: 100px;
+    height: 100px;
+    background-color: #FFB6C1; 
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    outline-color: #000;
+}
+.nose {
+    width: 20px;
+    height: 20px;
+    background-color: #000; 
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nose.left{
+    left: 90px;
+}
+.nose.right{
+    left: 130px;
+}
+.ear {
+    width: 10px;
+    height: 80px;
+    background-color: #f499a7; 
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+}
+.ear.left {
+    left: 10px;
+}
+.ear.right {
+    right: 10px;
+}    
+.ear {
+    width: 40px;
+    height: 40px;
+    background-color: #bc0f29; 
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+}
+.leftinner {
+    left: 20px;
+}
+.rightinner {
+    right: 10px;
+}
